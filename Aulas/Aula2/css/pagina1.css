@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+
+body{
+    background-color: black;
+    background-image: url("../img/dks3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: darkred;
+}
+
+img{
+    width: 900px;
+    height: 500px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    font-family: arial, fantasy, sans-serif;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    background: linear-gradient(#000500, #6f1600);
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    background: linear-gradient(#7f4707, #000500);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
