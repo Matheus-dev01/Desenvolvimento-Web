@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body{
+   background-color: #008094;
+}
+.menu{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0880ff;
+    width: 100%;
+    height: 110px;
+}
+.item-menu{
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.item-menu:hover{
+    font-size: 22px;
+}
+.titulo{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+}
+#produto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    width: 200px;
+    height: 250px;
+}
+.detalhes{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.comprar{
+    margin-left: 50px;
+    margin-right: auto;
+}
+button{
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    font-size: 20px;
+}
+button:hover{
+    font-size: 22px;
+    background: linear-gradient(crimson, #008094);
+}
+.produtos{
+    background: linear-gradient(#000500, #6f1600);
+    width: 650px;
+    height: 630px;
+    border: 10px solid #008094;
+    border-radius: 10%;
+    transition: .3s ease-in-out;
+
+    font-family: "Oxygen", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+.produtos:hover{
+    height: 660px;
+    width: 660px;
+}
+.Titulos{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 80px;
+    color: black; 
+    background-color: #6f1600;
+}
