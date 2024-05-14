@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');     
 
 body{
     background-color: black;
@@ -11,6 +11,7 @@ body{
 h1{
     text-align: center;
     font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
     font-size: 50px;
     font-style: italic;
     color: darkred;
